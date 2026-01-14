@@ -97,3 +97,63 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# --- JetBrains Rider / IntelliJ ---
+.idea/
+*.sln.iml
+*.idea.iml
+*.csproj.iml
+/cmake-build-*/
+.DS_Store
+# Ignoruj pliki użytkownika Ridera
+*.DotSettings.user
+*.DotSettings.user.*
+
+# --- Pliki XML (celowane ignorowanie) ---
+# Ignorujemy tylko te z folderów konfiguracyjnych, nie globalnie
+.idea/*.xml
+/[Bb]uild/*.xml
+/[Ll]ibrary/*.xml
+
+# --- Pozostałe śmieci systemowe i edytorów ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# --- TextMesh Pro (Ignorowanie przykładów) ---
+# Te foldery zawierają dziesiątki plików .asset, .ttf, .unity i .mat, 
+# które nie są częścią Twojej gry, a jedynie demami od Unity.
+/[Aa]ssets/[Tt]ext[Mm]esh [Pp]ro/[Ee]xamples & [Ee]xtras/
+/[Aa]ssets/[Tt]ext[Mm]esh [Pp]ro/[Ee]xamples & [Ee]xtras.meta
+
+# --- Rider / IDE ---
+.idea/
+*.sln.iml
+*.idea.iml
+*.csproj.iml
+.DS_Store
+
+# --- Pliki XML (Konfiguracyjne - bezpieczne do ignorowania) ---
+# Ignorujemy pliki XML generowane przez systemy, nie usuwaj link.xml jeśli go stworzysz
+/[Aa]ssets/TextMesh Pro/Resources/style.xml*
+/[Aa]ssets/TextMesh Pro/Resources/line.xml*
+.idea/*.xml
+
+/[Aa]ssets/[Tt]utorial[Ii]nfo/
+/[Aa]ssets/[Tt]utorial[Ii]nfo.meta
+/[Aa]ssets/[Rr]eadme.asset
+/[Aa]ssets/[Rr]eadme.asset.meta
+
+*.wlt
+*.vsconfig
+
+# --- Unity Template Garbage ---
+/[Aa]ssets/[Tt]utorial[Ii]nfo/
+/[Aa]ssets/[Tt]utorial[Ii]nfo.meta
+/[Aa]ssets/[Rr]eadme.asset
+/[Aa]ssets/[Rr]eadme.asset.meta
